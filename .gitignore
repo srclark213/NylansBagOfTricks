@@ -1,0 +1,6 @@
+*.zip
+.vscode/
+.idea/
+deploy.ps1
+CLAUDE.md
+docs/

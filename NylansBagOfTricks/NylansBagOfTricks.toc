@@ -1,0 +1,29 @@
+## Interface: 16001
+## Title: Nylan's Bag of Tricks
+## Notes: Small quality-of-life tricks: Mail Overhaul, Gamepad Prompt and Auto Replace Enchant. Toggle them in Options > AddOns, or /tricks.
+## Version: 1.0.0
+## IconTexture: Interface\Icons\INV_Misc_Bag_10
+## SavedVariables: NylansBagOfTricksDB, MailOverhaulDB, GamepadPromptDB, AutoReplaceEnchantDB
+
+Core.lua
+Settings.lua
+
+# Mail Overhaul
+Modules\MailOverhaul\Core.lua
+Modules\MailOverhaul\Names.lua
+Modules\MailOverhaul\Contacts.lua
+Modules\MailOverhaul\Rules.lua
+Modules\MailOverhaul\Sender.lua
+Modules\MailOverhaul\UI\Widgets.lua
+Modules\MailOverhaul\UI\AddressBookTab.lua
+Modules\MailOverhaul\UI\RulesTab.lua
+Modules\MailOverhaul\UI\InboxTab.lua
+Modules\MailOverhaul\UI\SendTab.lua
+Modules\MailOverhaul\UI\Mailbox.lua
+Modules\MailOverhaul\UI\MailHooks.lua
+
+# Gamepad Prompt
+Modules\GamepadPrompt\GamepadPrompt.lua
+
+# Auto Replace Enchant
+Modules\AutoReplaceEnchant\AutoReplaceEnchant.lua
